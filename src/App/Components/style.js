@@ -6,7 +6,7 @@ const SectionContainer = styled('div', ({ gradient, horizontal }) => ({
   alignItems: 'center',
   justifyContent: 'center',
   flex: '1',
-  height: '100vh',
+  minHeight: '100vh',
   width: '100vw',
   fontSize: '80px',
   lineHeight: '130px',
