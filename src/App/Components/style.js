@@ -11,7 +11,6 @@ const SectionContainer = styled('div', ({ gradient }) => ({
   fontSize: '80px',
   lineHeight: '130px',
   color: '#b7b3b0',
-  // backgroundColor: '#0A013D',
   background: gradient
     ? 'linear-gradient(0deg, #17038A 0%, #0A013D 100%)'
     : 'linear-gradient(0deg, #0A013D 0%, #17038A 100%)',

@@ -5,9 +5,11 @@ import './App.css';
 import React, { Fragment } from 'react';
 
 import MainContent from './App/MainContent';
+import Topbar from './App/Components/Topbar';
 
 const App = () => (
-  <Fragment className="AppContainer">
+  <Fragment>
+    <Topbar />
     <MainContent />
   </Fragment>
 );
