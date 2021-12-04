@@ -15,10 +15,15 @@ const VersatileText = styled('div', () => ({
   },
 }));
 
-const VersatileTextContainer = styled('div', () => ({
+const VersatileContainer = styled('div', () => ({
   display: 'flex',
+  flex: '1',
+  width: '100%',
   flexDirection: 'column',
   color: '#b7b3b0',
+  alignItems: 'center',
+  justifyContent: 'center',
+  zIndex: '10',
 }));
 
-export { VersatileText, VersatileTextContainer };
+export { VersatileText, VersatileContainer };

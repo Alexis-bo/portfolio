@@ -1,8 +1,8 @@
 import { styled } from 'styletron-react';
 
-const SectionContainer = styled('div', ({ gradient }) => ({
+const SectionContainer = styled('div', ({ gradient, horizontal }) => ({
   display: 'flex',
-  flexDirection: 'column',
+  flexDirection: horizontal ? 'row' : 'column',
   alignItems: 'center',
   justifyContent: 'center',
   flex: '1',

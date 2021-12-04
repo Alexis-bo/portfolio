@@ -20,21 +20,19 @@ const MainContent = () => (
       <Opportunities />
     </SectionContainer>
 
-    <SectionContainer gradient>
+    <SectionContainer horizontal gradient>
+      <Versatile />
+      <Fastlearner gradient />
+      <Openminded />
+    </SectionContainer>
+
+    <SectionContainer>
       <Languages />
     </SectionContainer>
 
-    <SectionContainer>
-      <Fastlearner gradient={false} />
-    </SectionContainer>
+    {/* <SectionContainer gradient></SectionContainer>
 
-    <SectionContainer gradient>
-      <Versatile />
-    </SectionContainer>
-
-    <SectionContainer>
-      <Openminded />
-    </SectionContainer>
+    <SectionContainer></SectionContainer> */}
   </Fragment>
 );
 
