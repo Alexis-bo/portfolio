@@ -7,6 +7,7 @@ import Languages from './views/Languages';
 import Openminded from './views/Openminded';
 import Opportunities from './views/Opportunities';
 import Presentation from './views/Presentation';
+import Project from './views/Projects';
 import { SectionContainer } from '../Components/style';
 import Versatile from './views/Versatile';
 
@@ -30,9 +31,11 @@ const MainContent = () => (
       <Languages />
     </SectionContainer>
 
-    {/* <SectionContainer gradient></SectionContainer>
+    <SectionContainer gradient>
+      <Project />
+    </SectionContainer>
 
-    <SectionContainer></SectionContainer> */}
+    {/* <SectionContainer></SectionContainer>  */}
   </Fragment>
 );
 

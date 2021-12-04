@@ -10,7 +10,7 @@ const TopbarContainer = styled('div', () => ({
   flexDirection: 'row',
   background: '#0A013D',
   margin: '0',
-  zIndex: '10',
+  zIndex: '1000',
 }));
 
 const TopbarText = styled('div', () => ({
