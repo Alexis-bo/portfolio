@@ -3,6 +3,7 @@
 import 'chart.js/auto';
 
 import {
+  FastlearnerAbsoluteContainer,
   FastlearnerChartContainer,
   FastlearnerChartHider,
   FastlearnerContainer,
@@ -92,10 +93,12 @@ class Fastlearner extends Component {
     return (
       <FastlearnerContainer>
         <FastlearnerText id="chart">Fastlearner</FastlearnerText>
-        <FastlearnerChartContainer>
-          <Chart type="line" data={this.data} options={this.options} />
-        </FastlearnerChartContainer>
-        <FastlearnerChartHider show={animation} gradient={this.gradient} />
+        <FastlearnerAbsoluteContainer>
+          <FastlearnerChartHider show={animation} gradient={this.gradient} />
+          <FastlearnerChartContainer>
+            <Chart type="line" data={this.data} options={this.options} />
+          </FastlearnerChartContainer>
+        </FastlearnerAbsoluteContainer>
       </FastlearnerContainer>
     );
   }

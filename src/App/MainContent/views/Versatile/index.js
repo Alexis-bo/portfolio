@@ -1,13 +1,13 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 
-import { VersatileText, VersatileTextContainer } from './style.js';
+import { VersatileContainer, VersatileText } from './style.js';
 
 import React from 'react';
 
 const Versatile = () => (
-  <VersatileTextContainer>
+  <VersatileContainer>
     <VersatileText>Versatile</VersatileText>
-  </VersatileTextContainer>
+  </VersatileContainer>
 );
 
 export default Versatile;
