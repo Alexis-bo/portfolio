@@ -19,6 +19,12 @@ const ProjectContainer = styled('div', () => ({
   margin: '40px 3%',
   lineHeight: '40px',
   fontSize: '25px',
+  '@media only screen and (min-width: 300px) and (max-width: 1025px)': {
+    width: '80%',
+    fontSize: '35px',
+    lineHeight: '50px',
+    margin: '60px 0px',
+  },
 }));
 
 const ProjectImage = styled('img', () => ({
