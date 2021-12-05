@@ -20,17 +20,17 @@ const Resume = () => (
     <ResumeText>Or contact me !</ResumeText>
     <ResumeRowContainer>
       <a href="https://github.com/Alexis-bo" target="_blank" rel="noopener noreferrer">
-        <ResumeImage src="Logo-Github.png" />
+        <ResumeImage src={process.env.PUBLIC_URL + '/' + 'Logo-Github.png'} alt="logo github" />
       </a>
       <a href="mailto:alebonnel@gmail.com" target="_blank" rel="noopener noreferrer">
-        <ResumeImage src="Logo-Mail.png" />
+        <ResumeImage src={process.env.PUBLIC_URL + '/' + 'Logo-Mail.png'} alt="logo mail" />
       </a>
       <a
         href="https://www.linkedin.com/in/alexis-bonnel-846816184/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <ResumeImage src="Logo-Linkedin.png" />
+        <ResumeImage src={process.env.PUBLIC_URL + '/' + 'Logo-Linkedin.png'} alt="logo linkedin" />
       </a>
     </ResumeRowContainer>
   </ResumeContainer>

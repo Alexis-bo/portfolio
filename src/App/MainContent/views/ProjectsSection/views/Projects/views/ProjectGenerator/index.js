@@ -16,7 +16,9 @@ import React from 'react';
 const ProjectGenerator = ({ title, imagePath, description, techno, link, git }) => (
   <ProjectContainer>
     <ProjectTitle>{title}</ProjectTitle>
-    {imagePath && <ProjectImage src={imagePath} />}
+    {imagePath && (
+      <ProjectImage src={process.env.PUBLIC_URL + '/' + imagePath} alt="project image" />
+    )}
     <ProjectDescription>{description}</ProjectDescription>
     <ProjectTechno>{techno}</ProjectTechno>
     <ProjectLinkContainer>
