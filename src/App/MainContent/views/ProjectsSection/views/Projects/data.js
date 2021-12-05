@@ -24,13 +24,14 @@ export const projectsData = {
       imagePath: 'Toucher-2009.png',
       description: (
         <div>
-          Recreation in HTML5 of a 2009 flash project. Selected to be in the{' '}
+          Recreation in HTML5, CSS3, JavaScript of a 2009 flash project after the death of Adobe
+          Flash Player in 2021. Selected to be in the{' '}
           <a
             href="https://the-next.eliterature.org/exhibition/afterflash/bouchardon-toucher.html"
             target="_blank"
             rel="noopener noreferrer"
           >
-            after flash exhibition
+            after flash exhibition as a reference of flash project recreation.
           </a>
         </div>
       ),
@@ -52,7 +53,7 @@ export const projectsData = {
       imagePath: 'Summoners-War-Logo.png',
       description:
         'Decision helping tool for Real Time Arena, a competitive PvP mode in the mobile game Summoners War:Sky Arena. Work in progress, beta to be released early 2022',
-      techno: 'HTML, CSS, JavaScript, ReactJS',
+      techno: 'HTML, CSS, JavaScript, ReactJS, TypeScript',
       link: '',
       git: '',
     },
