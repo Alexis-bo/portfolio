@@ -10,13 +10,13 @@ const ProjectTitle = styled('div', () => ({
 const ProjectContainer = styled('div', () => ({
   display: 'flex',
   width: '25%',
-  minHeight: '900px',
+  minHeight: '500px',
   flexDirection: 'column',
   textAlign: 'left',
   justifyContent: 'flex-start',
   alignItems: 'flex-start',
   color: '#b7b3b0',
-  margin: '50px 3%',
+  margin: '40px 3%',
   lineHeight: '40px',
   fontSize: '25px',
 }));
