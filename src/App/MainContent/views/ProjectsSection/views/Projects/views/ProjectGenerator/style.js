@@ -5,6 +5,7 @@ const ProjectTitle = styled('div', () => ({
   fontSize: '50px',
   paddingBottom: '20px',
   alignSelf: 'center',
+  textAlign: 'center',
 }));
 
 const ProjectContainer = styled('div', () => ({
