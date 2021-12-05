@@ -49,6 +49,7 @@ const ProjectTechno = styled('div', () => ({
 
 const ProjectLink = styled('a', () => ({
   display: 'flex',
+  marginRight: '20px',
 }));
 
 const ProjectGit = styled('a', () => ({
