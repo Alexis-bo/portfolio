@@ -9,7 +9,7 @@ const SectionContainer = styled('div', ({ horizontal, last }) => ({
   minHeight: '100vh',
   width: '100vw',
   padding: last ? '50px 0px 0px 0px' : '50px 0px',
-  fontSize: '60px',
+  fontSize: '50px',
   lineHeight: '120px',
   color: '#b7b3b0',
   backgroundColor: '#0A013D',

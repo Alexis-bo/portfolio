@@ -23,12 +23,12 @@ const ResumeRowContainer = styled('div', () => ({
 
 const ResumeImage = styled('img', () => ({
   display: 'flex',
-  height: '80px',
+  height: '50px',
   width: 'auto',
   padding: '30px 100px',
   alignSelf: 'center',
   ':hover': {
-    transform: 'scale(1.2)',
+    transform: 'scale(1.4)',
   },
   transition: 'all 0.2s ease 0s',
 }));

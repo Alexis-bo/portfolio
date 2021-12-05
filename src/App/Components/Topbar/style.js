@@ -2,7 +2,7 @@ import { styled } from 'styletron-react';
 
 const TopbarContainer = styled('div', () => ({
   width: '100%',
-  height: '80px',
+  height: '50px',
   display: 'flex',
   position: 'fixed',
   alignItems: 'center',
@@ -17,7 +17,7 @@ const TopbarText = styled('div', ({ active }) => ({
   display: 'flex',
   justifyContent: 'flex-start',
   padding: '0px 50px',
-  fontSize: '50px',
+  fontSize: '40px',
   color: active ? 'white' : '#b7b3b0',
   ':hover': {
     color: 'white',
