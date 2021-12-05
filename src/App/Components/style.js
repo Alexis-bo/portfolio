@@ -1,6 +1,6 @@
 import { styled } from 'styletron-react';
 
-const SectionContainer = styled('div', ({ horizontal }) => ({
+const SectionContainer = styled('div', ({ horizontal, last }) => ({
   display: 'flex',
   flexDirection: horizontal ? 'row' : 'column',
   alignItems: 'center',
@@ -8,6 +8,7 @@ const SectionContainer = styled('div', ({ horizontal }) => ({
   flex: '1',
   minHeight: '100vh',
   width: '100vw',
+  padding: last ? '50px 0px 0px 0px' : '50px 0px',
   fontSize: '60px',
   lineHeight: '120px',
   color: '#b7b3b0',

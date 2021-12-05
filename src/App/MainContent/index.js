@@ -9,21 +9,18 @@ import Openminded from './views/Openminded';
 import Opportunities from './views/Opportunities';
 import Presentation from './views/Presentation';
 import Project from './views/Projects';
+import Resume from './views/Resume';
 import Versatile from './views/Versatile';
 
 const MainContent = () => (
   <Fragment>
-    <SectionContainer gradient>
+    <SectionContainer>
       <Presentation />
     </SectionContainer>
 
-    <SectionContainer>
-      <Opportunities />
-    </SectionContainer>
-
-    <SectionContainer horizontal gradient>
+    <SectionContainer horizontal>
       <Versatile />
-      <Fastlearner gradient />
+      <Fastlearner />
       <Openminded />
     </SectionContainer>
 
@@ -31,12 +28,18 @@ const MainContent = () => (
       <Languages />
     </SectionContainer>
 
-    <SectionContainer gradient>
-      <SectionTitle>Some of the projects I have worked on</SectionTitle>
+    <SectionContainer>
+      <SectionTitle>A few projects I have worked on</SectionTitle>
       <Project />
     </SectionContainer>
 
-    {/* <SectionContainer></SectionContainer>  */}
+    <SectionContainer>
+      <Opportunities />
+    </SectionContainer>
+
+    <SectionContainer last>
+      <Resume />
+    </SectionContainer>
   </Fragment>
 );
 

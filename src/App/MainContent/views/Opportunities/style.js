@@ -1,6 +1,8 @@
 import { styled } from 'styletron-react';
 
-const OpportunitiesText = styled('div', () => ({}));
+const OpportunitiesText = styled('div', () => ({
+  margin: '70px 0px',
+}));
 
 const OpportunitiesDifference = styled('span', ({ animation }) => ({
   color: animation ? 'red' : 'inherit',
