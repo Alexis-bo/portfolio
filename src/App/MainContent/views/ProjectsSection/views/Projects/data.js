@@ -56,5 +56,14 @@ export const projectsData = {
       link: '',
       git: '',
     },
+    {
+      title: 'Portfolio',
+      imagePath: '',
+      description:
+        'The website you are currently on ! This is a basic site to display what I am working on. You can check the public github repo to see the source code and how I work !',
+      techno: 'HTML, CSS, JavaScript, ReactJS',
+      link: 'https://alexis-bo.github.io/portfolio/',
+      git: 'https://github.com/Alexis-bo/portfolio',
+    },
   ],
 };

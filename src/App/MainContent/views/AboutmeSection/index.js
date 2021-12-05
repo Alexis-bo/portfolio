@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 
 // import Fastlearner from '../views/Fastlearner';
-import Languages from '../views/Languages';
+import Languages from './views/Languages';
 // import Openminded from '../views/Openminded';
-import Presentation from '../views/Presentation';
+import Presentation from './views/Presentation';
 import React from 'react';
 import { SectionContainer } from '../../../Components/style';
 // import Versatile from '../views/Versatile';
