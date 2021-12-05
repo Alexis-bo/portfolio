@@ -2,7 +2,7 @@
 
 import { SectionContainer, SectionTitle } from '../../../Components/style';
 
-import Project from '../views/Projects';
+import Project from './views/Projects';
 import React from 'react';
 
 const ProjectsSection = () => (
