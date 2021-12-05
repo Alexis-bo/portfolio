@@ -32,8 +32,10 @@ const ResumeImage = styled('img', () => ({
   width: 'auto',
   padding: '30px 100px',
   alignSelf: 'center',
+  filter: 'contrast(100%)',
   ':hover': {
     transform: 'scale(1.4)',
+    filter: 'contrast(200%)',
   },
   transition: 'all 0.2s ease 0s',
   '@media only screen and (min-width: 300px) and (max-width: 1025px)': {
