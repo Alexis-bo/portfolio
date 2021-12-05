@@ -14,9 +14,8 @@ import React, { Component } from 'react';
 import { Chart } from 'react-chartjs-2';
 
 class Fastlearner extends Component {
-  constructor({ gradient }) {
+  constructor() {
     super();
-    this.gradient = gradient;
     this.data = {
       labels: ['', '', '', '', '', '', ''],
       datasets: [
@@ -94,7 +93,7 @@ class Fastlearner extends Component {
       <FastlearnerContainer>
         <FastlearnerText id="chart">Fastlearner</FastlearnerText>
         <FastlearnerAbsoluteContainer>
-          <FastlearnerChartHider show={animation} gradient={this.gradient} />
+          <FastlearnerChartHider show={animation} />
           <FastlearnerChartContainer>
             <Chart type="line" data={this.data} options={this.options} />
           </FastlearnerChartContainer>

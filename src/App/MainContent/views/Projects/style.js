@@ -6,7 +6,6 @@ const ProjectSectionContainer = styled('div', () => ({
   height: '100%',
   flexDirection: 'row',
   flexWrap: 'wrap',
-  alignItems: 'center',
   justifyContent: 'center',
 }));
 

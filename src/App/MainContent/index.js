@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 
 import React, { Fragment } from 'react';
+import { SectionContainer, SectionTitle } from '../Components/style';
 
 import Fastlearner from './views/Fastlearner';
 import Languages from './views/Languages';
@@ -8,7 +9,6 @@ import Openminded from './views/Openminded';
 import Opportunities from './views/Opportunities';
 import Presentation from './views/Presentation';
 import Project from './views/Projects';
-import { SectionContainer } from '../Components/style';
 import Versatile from './views/Versatile';
 
 const MainContent = () => (
@@ -32,6 +32,7 @@ const MainContent = () => (
     </SectionContainer>
 
     <SectionContainer gradient>
+      <SectionTitle>Some of the projects I have worked on</SectionTitle>
       <Project />
     </SectionContainer>
 

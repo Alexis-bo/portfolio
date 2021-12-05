@@ -33,7 +33,7 @@ const FastlearnerChartContainer = styled('div', () => ({
   zIndex: '0',
 }));
 
-const FastlearnerChartHider = styled('div', ({ show, gradient }) => ({
+const FastlearnerChartHider = styled('div', ({ show }) => ({
   display: 'flex',
   position: 'absolute',
   left: show ? '100%' : '33%',
@@ -41,10 +41,7 @@ const FastlearnerChartHider = styled('div', ({ show, gradient }) => ({
   width: '50%',
   height: '100%',
   zIndex: '1',
-  background: gradient
-    ? 'linear-gradient(0deg, #17038A 0%, #0A013D 100%)'
-    : 'linear-gradient(0deg, #0A013D 0%, #17038A 100%)',
-  backgroundColor: gradient ? 'red' : 'red',
+  backgroundColor: '#0A013D',
   transition: 'all 3.0s linear 0s',
 }));
 
