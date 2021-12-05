@@ -41,7 +41,7 @@ class Opportunities extends Component {
       <OpportunitiesTextContainer>
         <OpportunitiesContainer>
           <OpportunitiesText id="opportunity">
-            I am looking for opportunities where I can make a{' '}
+            I am looking for Software Engineering opportunities where I can make a{' '}
             <OpportunitiesDifference animation={animation}>difference</OpportunitiesDifference>
           </OpportunitiesText>
           <OpportunitiesText>Available from March 2022</OpportunitiesText>

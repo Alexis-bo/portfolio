@@ -8,7 +8,7 @@ const Presentation = () => (
   <PresentationTextContainer>
     <PresentationText>Hello !</PresentationText>
     <PresentationText leftMargin="25px">I am Alexis,</PresentationText>
-    <PresentationText leftMargin="50px">Software Engineer</PresentationText>
+    <PresentationText leftMargin="50px">a Junior Software Engineer</PresentationText>
   </PresentationTextContainer>
 );
 

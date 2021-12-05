@@ -18,7 +18,7 @@ const ProjectContainer = styled('div', () => ({
   color: '#b7b3b0',
   margin: '50px 3%',
   lineHeight: '40px',
-  fontSize: '30px',
+  fontSize: '25px',
 }));
 
 const ProjectImage = styled('img', () => ({
