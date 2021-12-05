@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 
-import { ResumeContainer, ResumeImage, ResumeText } from './style.js';
+import { ResumeContainer, ResumeImage, ResumeRowContainer, ResumeText } from './style.js';
 
 import React from 'react';
 
@@ -18,9 +18,21 @@ const Resume = () => (
       a little better
     </ResumeText>
     <ResumeText>Or contact me !</ResumeText>
-    <a href="mailto:alebonnel@gmail.com" target="_blank" rel="noopener noreferrer">
-      <ResumeImage src="Logo-Mail.png" />
-    </a>
+    <ResumeRowContainer>
+      <a href="https://github.com/Alexis-bo" target="_blank" rel="noopener noreferrer">
+        <ResumeImage src="Logo-Github.png" />
+      </a>
+      <a href="mailto:alebonnel@gmail.com" target="_blank" rel="noopener noreferrer">
+        <ResumeImage src="Logo-Mail.png" />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/alexis-bonnel-846816184/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <ResumeImage src="Logo-Linkedin.png" />
+      </a>
+    </ResumeRowContainer>
   </ResumeContainer>
 );
 
