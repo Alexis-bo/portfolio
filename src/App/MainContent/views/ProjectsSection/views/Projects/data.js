@@ -53,7 +53,7 @@ export const projectsData = {
       imagePath: 'Summoners-War-Logo.png',
       description:
         'Decision helping tool for Real Time Arena, a competitive PvP mode in the mobile game Summoners War:Sky Arena. Work in progress, beta to be released early 2022',
-      techno: 'HTML, CSS, JavaScript, ReactJS',
+      techno: 'HTML, CSS, JavaScript, ReactJS, TypeScript',
       link: '',
       git: '',
     },
