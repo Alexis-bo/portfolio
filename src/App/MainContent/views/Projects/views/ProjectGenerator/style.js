@@ -1,31 +1,30 @@
 import { styled } from 'styletron-react';
 
 const ProjectTitle = styled('div', () => ({
-  lineHeight: '100px',
-  fontSize: '80px',
+  lineHeight: '70px',
+  fontSize: '50px',
   paddingBottom: '20px',
   alignSelf: 'center',
 }));
 
 const ProjectContainer = styled('div', () => ({
   display: 'flex',
-  width: '30%',
+  width: '25%',
   minHeight: '900px',
   flexDirection: 'column',
   textAlign: 'left',
   justifyContent: 'flex-start',
   alignItems: 'flex-start',
   color: '#b7b3b0',
-  margin: '50px 1.6%',
-  lineHeight: '50px',
-  fontSize: '40px',
-  boxShadow: '4px 4px 20px 2px rgba(0, 0, 0, 0.15)',
+  margin: '50px 3%',
+  lineHeight: '40px',
+  fontSize: '30px',
 }));
 
 const ProjectImage = styled('img', () => ({
   display: 'flex',
-  height: '400px',
-  maxWidth: '100%',
+  height: '200px',
+  maxWidth: '80%',
   width: 'auto',
   padding: '30px 0px',
   alignSelf: 'center',
@@ -38,7 +37,7 @@ const ProjectDescription = styled('div', () => ({
 }));
 
 const ProjectTechno = styled('div', () => ({
-  bakgroundColor: 'yellow',
+  fontStyle: 'italic',
   padding: '20px 0px',
 }));
 

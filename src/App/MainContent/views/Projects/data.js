@@ -6,7 +6,7 @@ export const projectsData = {
       title: 'Alone Together',
       imagePath: 'Alone-Together.png',
       description:
-        "Immersive experience in first person where the user is bound to impact his neighbour's environment because of his choices ...",
+        "Immersive 3D experience in first person where the user is bound to impact his neighbour's environment because of his choices ...",
       techno: 'Unity, C#',
       link: '',
       git: '',
@@ -25,27 +25,31 @@ export const projectsData = {
       description: (
         <div>
           Recreation in HTML5 of a 2009 flash project. Selected to be in the{' '}
-          <a href="https://the-next.eliterature.org/exhibition/afterflash/bouchardon-toucher.html">
+          <a
+            href="https://the-next.eliterature.org/exhibition/afterflash/bouchardon-toucher.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             after flash exhibition
           </a>
         </div>
       ),
-      techno: 'HTML, CSS, JavaScript, KonvaJS, Flash',
+      techno: 'HTML, CSS, JavaScript, KonvaJS, Howler, Flash',
       link: 'https://www.to-touch.net/',
       git: '',
     },
     {
       title: 'billiv',
-      imagePath: '',
+      imagePath: 'Billiv-Logo.png',
       description:
         '6 month internship as a Software Engineer Intern in billiv, a startup developing a paperless receipt solution. Develop fronts (website, dashboard ...), add new routes in the backend and implement data pipelines',
-      techno: 'HTML, CSS, JavaScript, ReactJS, chartJS, python, Google Cloud Platform',
+      techno: 'HTML, CSS, JavaScript, ReactJS, ChartJS, Python, Google Cloud Platform',
       link: 'https://www.billiv.fr/',
       git: '',
     },
     {
       title: 'RTA Brain',
-      imagePath: '',
+      imagePath: 'Summoners-War-Logo.png',
       description:
         'Decision helping tool for Real Time Arena, a competitive PvP mode in the mobile game Summoners War:Sky Arena. Work in progress, beta to be released early 2022',
       techno: 'HTML, CSS, JavaScript, ReactJS',

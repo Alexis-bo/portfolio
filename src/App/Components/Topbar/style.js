@@ -2,7 +2,7 @@ import { styled } from 'styletron-react';
 
 const TopbarContainer = styled('div', () => ({
   width: '100%',
-  height: '100px',
+  height: '80px',
   display: 'flex',
   position: 'fixed',
   alignItems: 'center',

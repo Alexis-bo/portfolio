@@ -20,8 +20,16 @@ const ProjectGenerator = ({ title, imagePath, description, techno, link, git }) 
     <ProjectDescription>{description}</ProjectDescription>
     <ProjectTechno>{techno}</ProjectTechno>
     <ProjectLinkContainer>
-      {link && <ProjectLink href={link}>Link</ProjectLink>}
-      {git && <ProjectGit href={git}>Git</ProjectGit>}
+      {link && (
+        <ProjectLink href={link} target="_blank" rel="noopener noreferrer">
+          Link
+        </ProjectLink>
+      )}
+      {git && (
+        <ProjectGit href={git} target="_blank" rel="noopener noreferrer">
+          Git
+        </ProjectGit>
+      )}
     </ProjectLinkContainer>
   </ProjectContainer>
 );
