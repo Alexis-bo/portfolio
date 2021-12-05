@@ -13,12 +13,12 @@ const TopbarContainer = styled('div', () => ({
   zIndex: '1000',
 }));
 
-const TopbarText = styled('div', () => ({
+const TopbarText = styled('div', ({ active }) => ({
   display: 'flex',
   justifyContent: 'flex-start',
   padding: '0px 50px',
   fontSize: '50px',
-  color: '#b7b3b0',
+  color: active ? 'white' : '#b7b3b0',
   ':hover': {
     color: 'white',
     cursor: 'pointer',

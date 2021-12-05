@@ -71,7 +71,7 @@ class Fastlearner extends Component {
   }
 
   componentDidMount() {
-    this.animationThreshold = document.getElementById('chart').offsetTop - 550;
+    this.animationThreshold = document.getElementById('fastlearner').offsetTop - 550;
     window.addEventListener('scroll', this.handleScroll);
   }
 
@@ -91,7 +91,7 @@ class Fastlearner extends Component {
 
     return (
       <FastlearnerContainer>
-        <FastlearnerText id="chart">Fastlearner</FastlearnerText>
+        <FastlearnerText id="fastlearner">Fastlearner</FastlearnerText>
         <FastlearnerAbsoluteContainer>
           <FastlearnerChartHider show={animation} />
           <FastlearnerChartContainer>
