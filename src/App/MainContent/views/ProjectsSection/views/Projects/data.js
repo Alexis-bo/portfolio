@@ -58,6 +58,15 @@ export const projectsData = {
       git: '',
     },
     {
+      title: 'Boids simulation',
+      imagePath: 'Boids.png',
+      description:
+        'Simulation of boids movement in a 2D environment using the multi-agent platform JADE',
+      techno: 'Java, JADE, multi-agent',
+      link: '',
+      git: '',
+    },
+    {
       title: 'Portfolio',
       imagePath: '',
       description:
