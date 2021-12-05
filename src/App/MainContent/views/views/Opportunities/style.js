@@ -11,6 +11,9 @@ const OpportunitiesDifference = styled('span', ({ animation }) => ({
 
 const OpportunitiesContainer = styled('div', () => ({
   width: '60%',
+  '@media only screen and (min-width: 300px) and (max-width: 1025px)': {
+    width: '90%',
+  },
 }));
 
 const OpportunitiesTextContainer = styled('div', () => ({
