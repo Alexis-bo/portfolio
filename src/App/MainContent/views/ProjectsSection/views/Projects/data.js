@@ -20,6 +20,15 @@ export const projectsData = {
       git: '',
     },
     {
+      title: 'Boids simulation',
+      imagePath: 'Boids.png',
+      description:
+        'Simulation of boids movement in a 2D environment using the multi-agent platform JADE',
+      techno: 'Java, JADE, multi-agent',
+      link: '',
+      git: '',
+    },
+    {
       title: 'Toucher 2009',
       imagePath: 'Toucher-2009.png',
       description: (
@@ -31,8 +40,9 @@ export const projectsData = {
             target="_blank"
             rel="noopener noreferrer"
           >
-            after flash exhibition as a reference of flash project recreation.
-          </a>
+            after flash exhibition
+          </a>{' '}
+          as a reference of flash project recreation.
         </div>
       ),
       techno: 'HTML, CSS, JavaScript, KonvaJS, Howler, Flash',
@@ -44,7 +54,7 @@ export const projectsData = {
       imagePath: 'Billiv-Logo.png',
       description:
         '6 month internship as a Software Engineer Intern in billiv, a startup developing a paperless receipt solution. Develop fronts (website, dashboard ...), add new routes in the backend and implement data pipelines',
-      techno: 'HTML, CSS, JavaScript, ReactJS, ChartJS, Python, Google Cloud Platform',
+      techno: 'HTML, CSS, JavaScript, ReactJS, ChartJS, Python, Google Cloud Platform, Terraform',
       link: 'https://www.billiv.fr/',
       git: '',
     },
@@ -61,7 +71,7 @@ export const projectsData = {
       title: 'Portfolio',
       imagePath: '',
       description:
-        'The website you are currently on ! This is a basic site to display what I am working on. You can check the public github repo to see the source code and how I work !',
+        'The website you are currently on ! This is a basic single page site to display what I am working on. You can check the public github repo to see the source code and how I work !',
       techno: 'HTML, CSS, JavaScript, ReactJS',
       link: 'https://alexis-bo.github.io/portfolio/',
       git: 'https://github.com/Alexis-bo/portfolio',

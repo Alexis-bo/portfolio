@@ -2,7 +2,7 @@ import { styled } from 'styletron-react';
 
 const ProjectTitle = styled('div', () => ({
   lineHeight: '70px',
-  fontSize: '50px',
+  fontSize: '35px',
   paddingBottom: '20px',
   alignSelf: 'center',
 }));
@@ -19,9 +19,11 @@ const ProjectContainer = styled('div', () => ({
   margin: '40px 3%',
   lineHeight: '40px',
   fontSize: '25px',
-  backgroundColor: '#b7b3b0',
-  borderRadius: '15px',
   padding: '10px',
+  border: '2px solid #0A013D',
+  backgroundColor: 'white',
+  borderRadius: '15px',
+  boxShadow: '4px 4px 4px #0A013D',
   '@media only screen and (min-width: 300px) and (max-width: 1025px)': {
     width: '80%',
     fontSize: '35px',
@@ -47,6 +49,7 @@ const ProjectDescription = styled('div', () => ({
 
 const ProjectTechno = styled('div', () => ({
   fontStyle: 'italic',
+  fontSize: '20px',
   padding: '20px 0px',
 }));
 
