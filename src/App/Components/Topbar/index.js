@@ -15,6 +15,7 @@ class Topbar extends Component {
 
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll);
+    this.handleScroll();
   }
 
   componentWillUnmount() {
