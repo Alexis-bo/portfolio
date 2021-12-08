@@ -33,7 +33,7 @@ const TopbarRightContainer = styled('div', () => ({
   justifyContent: 'flex-end',
   alignItems: 'center',
   padding: '0px 20px',
-  width: '90%',
+  width: '100%',
   height: '100%',
   borderBottom: '2px solid white',
 }));
