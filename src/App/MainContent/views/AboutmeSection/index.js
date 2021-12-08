@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 
 // import Fastlearner from '../views/Fastlearner';
-import Languages from './views/Languages';
 // import Openminded from '../views/Openminded';
 import Presentation from './views/Presentation';
 import React from 'react';
@@ -19,10 +18,6 @@ const AboutmeSection = () => (
       <Fastlearner />
       <Openminded />
     </SectionContainer> */}
-
-    <SectionContainer>
-      <Languages />
-    </SectionContainer>
   </div>
 );
 
