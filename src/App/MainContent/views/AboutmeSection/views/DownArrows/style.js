@@ -34,9 +34,11 @@ const PresentationArrow = styled('div', () => ({
 }));
 
 const PresentationArrowContainer = styled('div', () => ({
-  // marginTop: '50px',
   display: 'flex',
   flexDirection: 'column',
+  '@media only screen and (max-height: 650px)': {
+    display: 'none',
+  },
 }));
 
 export { PresentationArrow, PresentationArrowContainer, PresentationArrowAnimated };

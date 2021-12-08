@@ -11,7 +11,7 @@ const TopbarContainer = styled('div', () => ({
   background: '#0A013D',
   margin: '0',
   zIndex: '1000',
-  '@media only screen and (min-width: 300px) and (max-width: 1025px)': {
+  '@media only screen and (min-width: 200px) and (max-width: 1025px)': {
     display: 'none',
   },
 }));
