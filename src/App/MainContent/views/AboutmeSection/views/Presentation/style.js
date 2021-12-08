@@ -17,7 +17,7 @@ const PresentationContainer = styled('div', () => ({
   flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',
-  height: 'calc(100vh - 50px)',
+  paddingBottom: '30px',
   '@media only screen and (min-width: 300px) and (max-width: 1025px)': {},
 }));
 

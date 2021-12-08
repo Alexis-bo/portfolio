@@ -2,7 +2,6 @@
 
 import { PresentationContainer, PresentationText, PresentationTextContainer } from './style.js';
 
-import DownArrows from './views/DownArrows/index.js';
 import React from 'react';
 
 const Presentation = () => (
@@ -13,7 +12,6 @@ const Presentation = () => (
       <PresentationText small>Software Engineer</PresentationText>
       <PresentationText>I build easy-to-use and user-centered solutions !</PresentationText>
     </PresentationTextContainer>
-    <DownArrows />
   </PresentationContainer>
 );
 

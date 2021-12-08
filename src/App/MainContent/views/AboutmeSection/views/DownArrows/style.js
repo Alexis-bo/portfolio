@@ -34,7 +34,7 @@ const PresentationArrow = styled('div', () => ({
 }));
 
 const PresentationArrowContainer = styled('div', () => ({
-  marginTop: '50px',
+  // marginTop: '50px',
   display: 'flex',
   flexDirection: 'column',
 }));
