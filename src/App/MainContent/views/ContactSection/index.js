@@ -1,18 +1,17 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 
-import Opportunities from './views/Opportunities';
+import FunFacts from './views/views/FunFacts';
+import IconLinks from './views/views/IconLinks';
+import Opportunities from './views/views/Opportunities';
 import React from 'react';
-import Resume from './views/Resume';
 import { SectionContainer } from '../../../Components/style';
 
 const ContactSection = () => (
   <div id="contactSection">
     <SectionContainer>
+      <FunFacts />
       <Opportunities />
-    </SectionContainer>
-
-    <SectionContainer last>
-      <Resume />
+      <IconLinks />
     </SectionContainer>
   </div>
 );
