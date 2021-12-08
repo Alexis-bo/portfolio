@@ -19,7 +19,7 @@ class Opportunities extends Component {
   }
 
   componentDidMount() {
-    this.animationThreshold = document.getElementById('opportunity').offsetTop - 300;
+    this.animationThreshold = document.getElementById('opportunity').offsetTop - 400;
     window.addEventListener('scroll', this.handleScroll);
   }
 

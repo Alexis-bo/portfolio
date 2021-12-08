@@ -42,7 +42,7 @@ const FastlearnerChartHider = styled('div', ({ show }) => ({
   height: '100%',
   zIndex: '1',
   backgroundColor: '#0A013D',
-  transition: 'all 3.0s linear 0s',
+  transition: 'all 1.0s linear 0s',
 }));
 
 export {
