@@ -7,9 +7,10 @@ const ProjectSectionContainer = styled('div', () => ({
   flexDirection: 'row',
   flexWrap: 'wrap',
   justifyContent: 'center',
-  '@media only screen and (min-width: 300px) and (max-width: 1025px)': {
+  '@media only screen and (min-width: 200px) and (max-width: 1025px)': {
     flexDirection: 'column',
     alignItems: 'center',
+    width: '90%',
   },
 }));
 

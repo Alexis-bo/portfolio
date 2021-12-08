@@ -25,11 +25,11 @@ const ProjectContainer = styled('div', () => ({
   backgroundColor: 'white',
   borderRadius: '15px',
   boxShadow: '4px 4px 4px #0A013D',
-  '@media only screen and (min-width: 300px) and (max-width: 1025px)': {
+  '@media only screen and (min-width: 200px) and (max-width: 1025px)': {
     width: '80%',
     fontSize: '35px',
     lineHeight: '50px',
-    margin: '60px 0px',
+    margin: '20px 0px',
   },
 }));
 
@@ -52,6 +52,9 @@ const ProjectTechno = styled('div', () => ({
   fontStyle: 'italic',
   fontSize: '20px',
   padding: '20px 0px',
+  '@media only screen and (min-width: 200px) and (max-width: 1025px)': {
+    fontSize: '25px',
+  },
 }));
 
 const ProjectLink = styled('a', () => ({

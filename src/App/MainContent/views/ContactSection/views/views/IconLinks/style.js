@@ -12,8 +12,9 @@ const IconLinksContainer = styled('div', () => ({
   textAlign: 'center',
   alignItems: 'center',
   justifyContent: 'center',
-  '@media only screen and (min-width: 300px) and (max-width: 1025px)': {
+  '@media only screen and (min-width: 200px) and (max-width: 1025px)': {
     width: '90%',
+    padding: '100px',
   },
 }));
 
@@ -42,7 +43,9 @@ const IconLinksImageContainer = styled('div', () => ({
     color: 'white',
   },
   transition: 'all 0.2s ease 0s',
-  '@media only screen and (min-width: 300px) and (max-width: 1025px)': {},
+  '@media only screen and (min-width: 200px) and (max-width: 1025px)': {
+    margin: '0px 15px',
+  },
 }));
 
 export { IconLinksText, IconLinksContainer, IconLinksRowContainer, IconLinksImageContainer };

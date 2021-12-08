@@ -12,7 +12,7 @@ const SectionContainer = styled('div', ({ horizontal, last }) => ({
   lineHeight: '50px',
   backgroundColor: '#e3e2e1',
   color: '#0A013D',
-  '@media only screen and (min-width: 300px) and (max-width: 1025px)': {
+  '@media only screen and (min-width: 200px) and (max-width: 1025px)': {
     fontSize: '40px',
     lineHeight: '50px',
   },
@@ -28,7 +28,7 @@ const SectionTitle = styled('div', () => ({
   lineHeight: '60px',
   color: '#0A013D',
   padding: '50px 0px',
-  '@media only screen and (min-width: 300px) and (max-width: 1025px)': {
+  '@media only screen and (min-width: 200px) and (max-width: 1025px)': {
     fontSize: '45px',
     lineHeight: '60px',
     textAlign: 'center',
