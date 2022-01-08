@@ -3,8 +3,6 @@
     "activityBar.background": "#502807c9",
     "activityBar.foreground": "#FFFFFF"
   },
-
-  "editor.formatOnSave": true,
   "editor.tabSize": 2,
   "[javascript]": {
     "editor.codeActionsOnSave": {
