@@ -26,7 +26,7 @@ const IconLinks = () => (
       <IconLinksImageContainer
         onClick={() =>
           window.open(
-            'https://drive.google.com/file/d/1uugGeLRKVRp18T4VuqT_ZBsnkQjCXbuR/view?usp=sharing',
+            'https://drive.google.com/file/d/1FR5qhZDCsTvI1gS9p4-etUPN9LvLovkL/view?usp=sharing',
             '_blank'
           )
         }
