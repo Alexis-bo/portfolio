@@ -41,6 +41,7 @@ const IconLinksImageContainer = styled('div', () => ({
   ':hover': {
     backgroundColor: '#0A013D',
     color: 'white',
+    cursor: 'pointer',
   },
   transition: 'all 0.2s ease 0s',
   '@media only screen and (min-width: 200px) and (max-width: 1025px)': {

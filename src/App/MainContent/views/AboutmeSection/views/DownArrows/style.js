@@ -36,6 +36,7 @@ const PresentationArrow = styled('div', () => ({
 const PresentationArrowContainer = styled('div', () => ({
   display: 'flex',
   flexDirection: 'column',
+  cursor: 'pointer',
   '@media only screen and (max-height: 650px)': {
     display: 'none',
   },
